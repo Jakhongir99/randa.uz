@@ -1,0 +1,38 @@
+.contactUs {
+  padding-top: 80px;
+  padding-bottom: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contactUs h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #18065d;
+  margin-bottom: 35px;
+}
+.contactUs_cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contactUs_card {
+  padding: 35px 42px;
+  width: 370px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.card img {
+  margin-bottom: 25px;
+}
+.callNumber,
+.giveBook {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+  color: #18065d;
+}

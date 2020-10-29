@@ -1,0 +1,32 @@
+.container_footer {
+  width: 90%;
+  margin: 0 auto;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #18065d;
+  height: 150px;
+}
+.footer p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.footer_Row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.social img {
+  margin-right: 15px;
+}
+.copy {
+  text-align: center;
+  margin: 0;
+}

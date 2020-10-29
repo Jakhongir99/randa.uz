@@ -1,0 +1,25 @@
+.container h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: #18065d;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.container {
+  margin-bottom: 30px;
+}
+.projects {
+  text-align: center;
+}
+.projects img {
+  margin-bottom: 10px;
+}
+.projects p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}

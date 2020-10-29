@@ -1,0 +1,20 @@
+.aboutUs h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #18065d;
+}
+.aboutUs_Row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutUs {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 50px;
+}
+.aboutPageImage {
+  padding-left: 50px;
+}

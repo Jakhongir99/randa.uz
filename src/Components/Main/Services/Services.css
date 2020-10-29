@@ -1,0 +1,40 @@
+.Services {
+  margin: 45px auto 39px auto;
+  width: 768px;
+  height: 320px;
+}
+.Services h1 {
+  color: #18065d;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  display: flex;
+  height: 193px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 52px 20px 51px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.card img {
+  margin-bottom: 20px;
+}
+.card p {
+  width: 105px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
