@@ -8,31 +8,41 @@ const Project = () => {
       <div className="container">
         <h1>Bizning loyihalar</h1>
         <Row className="projects">
-          <Col span={8}>
-            <img src={image} alt="adImage" width="330" height="172" />
-            <p>Matn.uz mobil ilovasi</p>
+          <Col xs={24} sm={12} md={8} lg={8}>
+            <div className="project">
+              <img src={image} alt="adImage" width="330" height="172" />
+              <p>Matn.uz mobil ilovasi</p>
+            </div>
           </Col>
-          <Col span={8}>
-            <img src={image} alt="adImage" />
-            <p>Loyiha nomi uchun joy</p>
+          <Col xs={24} sm={12} md={8} lg={8}>
+            <div className="project">
+              <img src={image} alt="adImage" width="330" height="172" />
+              <p>Matn.uz mobil ilovasi</p>
+            </div>
           </Col>
-          <Col span={8}>
-            <img src={image} alt="adImage" />
-            <p>Loyiha nomi uchun joy</p>
+          <Col xs={24} sm={12} md={8} lg={8}>
+            <div className="project">
+              <img src={image} alt="adImage" width="330" height="172" />
+              <p>Matn.uz mobil ilovasi</p>
+            </div>
           </Col>
-        </Row>
-        <Row className="projects">
-          <Col span={8}>
-            <img src={image} alt="adImage" width="330" height="172" />
-            <p>Matn.uz mobil ilovasi</p>
+          <Col xs={24} sm={12} md={8} lg={8}>
+            <div className="project">
+              <img src={image} alt="adImage" width="330" height="172" />
+              <p>Matn.uz mobil ilovasi</p>
+            </div>
           </Col>
-          <Col span={8}>
-            <img src={image} alt="adImage" />
-            <p>Loyiha nomi uchun joy</p>
+          <Col xs={24} sm={12} md={8} lg={8}>
+            <div className="project">
+              <img src={image} alt="adImage" width="330" height="172" />
+              <p>Matn.uz mobil ilovasi</p>
+            </div>
           </Col>
-          <Col span={8}>
-            <img src={image} alt="adImage" />
-            <p>Loyiha nomi uchun joy</p>
+          <Col xs={24} sm={12} md={8} lg={8}>
+            <div className="project">
+              <img src={image} alt="adImage" width="330" height="172" />
+              <p>Matn.uz mobil ilovasi</p>
+            </div>
           </Col>
         </Row>
       </div>

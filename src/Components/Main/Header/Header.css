@@ -3,42 +3,41 @@
   margin: 0 auto;
 }
 header {
+  position: relative;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
 .logo {
   display: flex;
-  margin-left: 50px;
+  justify-content: center;
   align-items: center;
-  height: 60px;
 }
 .listItems {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 60px;
   padding: 0;
-  margin: 0;
+  margin-bottom: 0;
+  line-height: 45px;
 }
-.listItems li:nth-child(4) a {
+.listItems li {
+  padding-right: 10px;
+}
+.listItems li:nth-child(4) {
   line-height: 1.5;
   border: 1px solid #18065d;
   box-sizing: border-box;
   padding: 8px 24px;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
-  font-style: normal;
   font-weight: bold;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
   line-height: 19px;
   color: #18065d;
 }
-.hello {
-  color: #18065d;
+.navWrapper {
+  padding: 5px 0;
 }
 .listItems li a {
   color: #000;
-}
-.listItems li a::active {
-  color: #18065d;
 }
 .lang {
   display: flex;
@@ -48,4 +47,29 @@ header {
 .lang p {
   margin: 0;
   margin-right: 3px;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 655px) {
+  .listItems {
+    line-height: 1.5;
+    padding: 10px 0;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .listItems li:nth-child(4) {
+    padding: 5px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .listItems {
+    line-height: 1.5;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+  .listItems li {
+    padding: 10px;
+  }
+  .logo {
+    padding-top: 10px;
+  }
 }

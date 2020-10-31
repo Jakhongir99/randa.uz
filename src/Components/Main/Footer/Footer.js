@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="footer">
         <div className="container_footer">
           <Row className="footer_Row">
-            <Col span={8}>
+            <Col xs={24} sm={12} md={8} lg={8}>
               <img
                 src={logoWhite}
                 alt="logoWithOpacity"
@@ -19,7 +19,7 @@ const Footer = () => {
                 height="85"
               />
             </Col>
-            <Col span={8}>
+            <Col xs={24} sm={12} md={8} lg={8}>
               <div className="social">
                 <img
                   src={instagram}
@@ -36,7 +36,7 @@ const Footer = () => {
                 />
               </div>
             </Col>
-            <Col span={8}>
+            <Col xs={24} sm={12} md={8} lg={8}>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a
                 lacinia elit, nec commodo turpis. Ut eget justo faucibus,

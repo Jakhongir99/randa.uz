@@ -6,19 +6,20 @@ import { Select } from "antd";
 import { Link } from "react-router-dom";
 
 const { Option } = Select;
+
 const Header = () => {
   return (
     <header>
       <div className="container">
-        <Row>
-          <Col span={8}>
+        <Row className="navWrapper">
+          <Col xs={24} sm={6} md={8} lg={8}>
             <div className="logo">
               <Link to="/">
                 <img src={logo} alt="logo" width="74" height="45" />
               </Link>
             </div>
           </Col>
-          <Col span={16}>
+          <Col xs={24} sm={18} md={16} lg={16}>
             <ul className="listItems">
               <li>
                 <Link to="/aboutUs">Biz haqimizda</Link>

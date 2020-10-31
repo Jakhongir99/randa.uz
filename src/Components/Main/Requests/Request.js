@@ -9,12 +9,10 @@ const Request = () => {
       <div className="request">
         <div className="container_request">
           <Row className="Request_Row">
-            <Col span={8}>
-              {" "}
+            <Col xs={24} sm={12} md={8} lg={8}>
               <p>Tortinmasdan xohlagan paytizda murojaat qilishingiz mumkin</p>
             </Col>
-            <Col span={8}>
-              {" "}
+            <Col xs={24} sm={12} md={8} lg={8}>
               <img
                 src={logoWithOpacity}
                 alt="logoWithOpacity"
@@ -22,7 +20,7 @@ const Request = () => {
                 height="89"
               />
             </Col>
-            <Col span={8}>
+            <Col xs={24} sm={12} md={8} lg={8}>
               <button>Buyurtma berish</button>
             </Col>
           </Row>

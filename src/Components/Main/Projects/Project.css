@@ -7,16 +7,23 @@
   text-align: center;
   margin-bottom: 30px;
 }
-.container {
-  margin-bottom: 30px;
-}
 .projects {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.projects img {
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.project img {
+  max-width: 100%;
   margin-bottom: 10px;
 }
-.projects p {
+.project p {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;

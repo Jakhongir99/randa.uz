@@ -1,20 +1,29 @@
+.container_aboutPage {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .aboutUs h1 {
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
   line-height: 43px;
   color: #18065d;
+  text-align: left;
 }
 .aboutUs_Row {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 .aboutUs {
   padding-top: 80px;
   padding-bottom: 80px;
-  padding-left: 50px;
 }
 .aboutPageImage {
-  padding-left: 50px;
+  text-align: center;
+}
+.aboutPageImage img {
+  max-width: 100%;
+  object-fit: cover;
 }
