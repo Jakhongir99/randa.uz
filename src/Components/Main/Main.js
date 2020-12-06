@@ -1,18 +1,14 @@
 import React from "react";
-import Header from "./Header/Header";
-import Services from "./Services/Services";
-import Project from "./Projects/Project";
-import Request from "./Requests/Request";
-import Footer from "./Footer/Footer";
+import Services from "./services/Services";
+import Project from "./projects/Project";
+import Request from "./requests/Request";
 const Main = () => {
   return (
-    <div>
-      <Header />
+    <React.Fragment>
       <Services />
       <Project />
       <Request />
-      <Footer />
-    </div>
+    </React.Fragment>
   );
 };
 export default Main;

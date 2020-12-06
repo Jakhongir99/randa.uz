@@ -1,0 +1,30 @@
+ {
+  "menu_aboutUs":{"1":"About Us"} ,
+  "menu_ourProject": {"1":"Our projects"},
+  "menu_connect": {"1":"Connection"},
+  "menu_giveOrder": {"1":"Ordering"},
+
+
+
+  "services_mainText":{"1" :"What issues can we contact?"},
+  "services_firstCardText": {"1":"Websites and pages"},
+  "services_secondCardText":{ "1":"Reporting platforms"},
+  "services_thirdCardText":{ "1":"Mobile applications"},
+
+
+
+  "projects_mainText": {"1":"Our projects"},
+  "projects_firstCardText": {"1":"Matn.uz mobile application"},
+  "projects_secondCardText": {"1":"Matn.uz mobile application"},
+  "projects_thirdCardText": {"1":"Matn.uz mobile application"},
+  "projects_fourthCardText": {"1":"Matn.uz mobile application"},
+  "projects_fifthCardText": {"1":"Matn.uz mobile application"},
+  "projects_sixthCardText": {"1":"Matn.uz mobile application"},
+
+
+
+  "requests_mainText": {"1":"We will not say goodbye"},
+  "request_left_text": {"1":"You can apply at any time without hesitation"},
+  "request_give_order": {"1":"Ordering"}
+}
+

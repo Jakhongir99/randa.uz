@@ -1,0 +1,38 @@
+{
+  "menu_aboutUs": {
+    "1": "Biz haqimizdan"
+  },
+  "menu_ourProject":{
+    "1":"Loyihalarimiz"
+  } ,
+  "menu_connect": {
+    "1":"Bog'lanish"
+  },
+  "menu_giveOrder": {
+    "1":"Buyurtma berish"
+  },
+
+
+
+  "services_mainText":{"1": "Bizga qaysi masalalar bo’yicha murojaat qilish mumkin ?"},
+  "services_firstCardText":{"1": "Web saytlar va sahifalar"},
+  "services_secondCardText": {"1":"Hisobot yuritish platformalari"},
+  "services_thirdCardText": {"1":"Mobil ilovalar"},
+
+
+
+  "projects_mainText": {"1":"Bizning loyihalar"},
+  "projects_firstCardText": {"1":"Matn.uz mobil ilovasi"},
+  "projects_secondCardText": {"1":"Matn.uz mobil ilovasi"},
+  "projects_thirdCardText":{ "1":"Matn.uz mobil ilovasi"},
+  "projects_fourthCardText": {"1":"Matn.uz mobil ilovasi"},
+  "projects_fifthCardText": {"1":"Matn.uz mobil ilovasi"},
+  "projects_sixthCardText": {"1":"Matn.uz mobil ilovasi"},
+
+
+
+  "requests_mainText":{"1" :"Xayrlashmaymiz"},
+  "request_left_text":{"1":
+    "Tortinmasdan xohlagan paytizda murojaat qilishingiz mumkin"},
+  "request_give_order": {"1":"Buyurtma berish"}
+}

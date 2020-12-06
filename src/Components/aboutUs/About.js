@@ -1,13 +1,10 @@
 import React from "react";
-import Header from "../Main/Header/Header";
-import Footer from "../Main/Footer/Footer";
 import { Row, Col } from "antd";
 import aboutPageImage from "../../images/Ресурс 1@3x 1.png";
 import "./About.css";
 const About = () => {
   return (
     <React.Fragment>
-      <Header />
       <div className="aboutUs">
         <div className="container_aboutPage">
           <Row className="aboutUs_Row">
@@ -42,7 +39,6 @@ const About = () => {
           </Row>
         </div>
       </div>
-      <Footer />
     </React.Fragment>
   );
 };

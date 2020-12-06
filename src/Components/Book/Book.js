@@ -1,13 +1,10 @@
 import React from "react";
-import Header from "../Main/Header/Header";
-import Footer from "../Main/Footer/Footer";
 import { Row, Col } from "antd";
 import bookImage from "../../images/book 1.png";
 import "./Book.css";
 const Book = () => {
   return (
     <div>
-      <Header />
       <div className="bookUs">
         <div className="container">
           <h1>Buyurtma berish</h1>
@@ -33,7 +30,6 @@ const Book = () => {
           </Row>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

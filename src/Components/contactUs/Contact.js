@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "../Main/Header/Header";
-import Footer from "../Main/Footer/Footer";
 import { Row, Col } from "antd";
 import customerSupport from "../../images/customer-support 1.png";
 import fileTransfer from "../../images/file-transfer 1.png";
@@ -8,7 +6,6 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <React.Fragment>
-      <Header />
       <div className="contactUs">
         <div className="container">
           <h1>Bog’lanish</h1>
@@ -46,7 +43,6 @@ const Contact = () => {
           </Row>
         </div>
       </div>
-      <Footer />
     </React.Fragment>
   );
 };

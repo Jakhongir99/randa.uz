@@ -1,0 +1,32 @@
+{
+  "menu_aboutUs": {
+    "1":"о нас"
+  },
+  "menu_ourProject":{ "1":"Наши проекты"},
+  "menu_connect": {"1":"Подключение"},
+  "menu_giveOrder": {"1":"Заказ"},
+
+
+
+  "services_mainText": {"1":"С какими вопросами мы можем связаться?"},
+  "services_firstCardText": {"1":"Сайты и страницы"},
+  "services_secondCardText":{"1" :"Платформы отчетности"},
+  "services_thirdCardText": {"1":"Мобильные приложения"},
+
+
+
+  "projects_mainText": {"1":"Наши проекты"},
+  "projects_firstCardText": {"1":"Мобильное приложение Matn.uz"},
+  "projects_secondCardText":{ "1":"Мобильное приложение Matn.uz"},
+  "projects_thirdCardText": {"1":"Мобильное приложение Matn.uz"},
+  "projects_fourthCardText": {"1":"Мобильное приложение Matn.uz"},
+  "projects_fifthCardText": {"1":"Мобильное приложение Matn.uz"},
+  "projects_sixthCardText": {"1":"Мобильное приложение Matn.uz"},
+
+
+
+  "requests_mainText": {"1":"Мы не будем прощаться"},
+  "request_left_text": {"1":"Вы можете подать заявку в любое время без колебаний"},
+  "request_give_order":{ "1":"Заказ"}
+}
+
